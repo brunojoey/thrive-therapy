@@ -1,0 +1,29 @@
+@import "../styles/variables.scss";
+
+.coming-soon {
+  text-align: center;
+  
+  > h2 {
+    margin-top: -3rem;
+    margin-left: 3rem;
+    transform: scale(250%);
+    color: $color-lightTeal;
+    font-family: "Gotham Rounded Light", "Arial", "sans-serif";
+  }
+}
+
+// Not Found Page
+.not-found {
+  text-align: center;
+  display: flex;
+  align-items: center;
+
+  &-btn {
+    background-color: $color-lightRed;
+    color: white;
+    font-weight: bold;
+    width: 5%;
+    padding: .5rem;
+    border-radius: 5px;
+  }
+}
