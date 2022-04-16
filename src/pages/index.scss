@@ -1,7 +1,11 @@
 @import "../styles/variables.scss";
 
+// Coming Soon Page
 .coming-soon {
   text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   
   > h2 {
     margin-top: -3rem;
@@ -25,5 +29,11 @@
     width: 5%;
     padding: .5rem;
     border-radius: 5px;
+  }
+}
+
+@media (max-width: 960px) {
+  .coming-soon-logo {
+    max-width: 50vh;
   }
 }

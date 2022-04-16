@@ -13,7 +13,7 @@ import {
 // import Questions from "./pages/Questions";
 // import Resources from "./pages/Resources";
 import ComingSoon from "./pages/ComingSoon";
-import NotFound from "./pages/NotFound"
+// import NotFound from "./pages/NotFound"
 import './App.scss';
 
 function App() {
@@ -30,7 +30,7 @@ function App() {
           <Route path="/faq" element={<Questions />}/>
           <Route path="/resources" element={<Resources />}/> */}
           <Route path="/" element={<ComingSoon />}/>
-          <Route path="*" element={<NotFound />}/>
+          {/* <Route path="*" element={<NotFound />}/> */}
         </Routes>
         {/* <Footer /> */}
       </Router>
