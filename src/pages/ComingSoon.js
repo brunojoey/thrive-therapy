@@ -6,7 +6,7 @@ const ComingSoon = () => {
     <div>
       <section className="coming-soon">
         <img src={logo} alt="Thrive Pediatric Therapy Logo" className="coming-soon-logo" width={500}></img>
-        <h2>...Coming Soon!</h2>
+        <h2 className="coming-soon-header">...Coming Soon!</h2>
       </section>
     </div>
   );
