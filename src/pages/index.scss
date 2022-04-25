@@ -1,5 +1,65 @@
 @import "../styles/variables.scss";
 
+// Home Page
+.info-block {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr;
+  text-align: center; 
+  height: 80vh;
+
+  &-one {
+    background-color: red; 
+  }
+
+  &-two {
+    background-color: blue;
+  }
+
+  &-three {
+    background-color: green;
+  }
+}
+
+// Contact Page
+.contact {
+  display: grid;
+  grid-template-columns: 5fr 5fr;
+
+  &-info {
+    padding: 2rem;
+  };
+
+  &-form {
+    padding: 2rem;
+
+    > {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+
+// FAQ Page
+.title {
+  text-align: center;
+}
+
+.question {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  &-card {
+    background-color: lightcoral;
+    padding: 1rem;
+    margin: 1rem 1rem 3rem 1rem;
+    width: 30%;
+    box-shadow: 2px 2px 9px #555;
+    border-radius: 5px;
+  }
+}
+
 // Coming Soon Page
 .coming-soon {
   text-align: center;

@@ -8,7 +8,7 @@ const Footer = () => {
       <section className="footer-info">
         <h2>Thrive Therapy</h2>
         <p>170 W Franklin Street Gallatin, TN 37066 </p>
-        <p>Email</p>
+        <a href="mailto: admin@thrivepediatrictherapy.org">Send us an Email!</a>
         <p>Hours</p>
       </section>
       <section className="social-links">
