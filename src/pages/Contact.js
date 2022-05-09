@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBuilding, faEnvelope, faFax, faPhone } from "@fortawesome/free-solid-svg-icons";
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -15,13 +17,25 @@ const Contact = () => {
 
   return (
     <div className="content">
-      <h1>Contact Us</h1>
+      <h1 className="title">Contact Us</h1>
       <div className="contact">
         <section className="contact-info">
-          <p>Phone Number</p>
-          <p>Location</p>
-          <p>Email</p>
-          <p>Fax Number</p>
+          <div className="contact-square">
+            <FontAwesomeIcon icon={faPhone} className="contact-fa"/>
+            <p>(615) 802-8051</p>
+          </div>
+          <div className="contact-square">
+            <FontAwesomeIcon icon={faBuilding} className="contact-fa"/>
+            <p>170 W Franklin Street Gallatin, TN 37066</p>
+          </div>
+          <div className="contact-square">
+            <FontAwesomeIcon icon={faEnvelope} className="contact-fa"/>
+            <p>admin@thrivepediatrictherapy.org</p>
+          </div>
+          <div className="contact-square">
+            <FontAwesomeIcon icon={faFax} className="contact-fa"/>
+            <p>(833) 901-2965</p>
+          </div>
         </section>
         <section className="contact-form">
           <form onSubmit={handleSubmit}>
@@ -55,7 +69,7 @@ const Contact = () => {
               value={message}
               onChange={(e) => setMessage(e.target.value)}
             ></textarea>
-            <button>Submit</button>
+            <button className="contact-button">Submit</button>
           </form>
         </section>
       </div>

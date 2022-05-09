@@ -30,13 +30,13 @@ const Home = () => {
           </ul>
         </div>
       </section>
-      <section>
-        <h2 className="title">Meet the Owners</h2>
-        <div>
+      <h2 className="secondary-title">Meet the Owners</h2>
+      <section className="owner-section">
+        <div className="owner">
           <h3>Alyssa Williams</h3>
           <img src="https://via.placeholder.com/200" alt="" className="owner-photo"/>
         </div>
-        <div>
+        <div className="owner">
           <h3>Christina Bruno</h3>
           <img src="https://via.placeholder.com/200" alt="" className="owner-photo"/>
         </div>

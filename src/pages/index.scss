@@ -5,20 +5,93 @@
   margin-top: 3rem;
   display: grid;
   grid-template-columns: 3fr 3fr 3fr;
-  text-align: center; 
-  height: 80vh;
+  text-align: center;
+  height: 100vh;
 
   &-one {
-    background-color: red; 
+    background-color: $color-lightTeal;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+    > h3 {
+      font-size: 1.7rem;
+    }
+    
+    > img {
+      width: 60%;
+      padding: 2rem;
+    }
   }
 
   &-two {
-    background-color: blue;
+    background-color: $color-lightOrange;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+    > h3 {
+      font-size: 1.7rem;
+    }
+    
+    > img {
+      width: 60%;
+      padding: 2rem;
+    }
   }
 
   &-three {
-    background-color: green;
+    background-color: $color-lightRed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+    > h3 {
+      font-size: 1.7rem;
+    }
+    
+    > img {
+      width: 60%;
+      padding: 2rem;
+    }
   }
+}
+
+.secondary-title {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.owner-section {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  justify-content: space-around;
+}
+
+.owner {
+  text-align: center;
+}
+
+// About Page
+.about-headers {
+  margin: 0;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.about-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+
+.about-paragraph {
+  width: 55%;
+  margin-left: 2rem;
 }
 
 // Contact Page
@@ -28,14 +101,44 @@
 
   &-info {
     padding: 2rem;
-  };
+  }
+
+  &-fa {
+    color: $color-lightTeal;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  &-square {
+    text-align: center;
+  }
 
   &-form {
     padding: 2rem;
 
-    > {
+    > form {
       display: flex;
       flex-direction: column;
+      justify-items: space-between;
+
+      > input {
+        width: 35%;
+        margin-bottom: 1rem;
+      }
+
+      > textarea {
+        width: 35%;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+
+  &-button {
+    width: 36%;
+    padding: .25rem;
+
+    :hover {
+      box-shadow: 10px 10px 20rem #555;
     }
   }
 }
@@ -43,6 +146,7 @@
 // FAQ Page
 .title {
   text-align: center;
+  font-size: 2rem;
 }
 
 .question {
@@ -51,12 +155,13 @@
   justify-content: center;
 
   &-card {
-    background-color: lightcoral;
+    background-color: $color-lightTeal;
     padding: 1rem;
     margin: 1rem 1rem 3rem 1rem;
     width: 30%;
     box-shadow: 2px 2px 9px #555;
     border-radius: 5px;
+    border: 5px solid $color-lightOrange;
   }
 }
 
@@ -66,7 +171,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  
+
   > h2 {
     margin-top: -3rem;
     margin-left: 3rem;
@@ -87,7 +192,7 @@
     color: white;
     font-weight: bold;
     width: 5%;
-    padding: .5rem;
+    padding: 0.5rem;
     border-radius: 5px;
   }
 }
@@ -95,10 +200,10 @@
 @media (max-width: 960px) {
   .coming-soon-logo {
     max-width: 50vh;
-  };
+  }
 
   .coming-soon-header {
     width: 25%;
     padding: 3em 1rem 0 0;
-  };
+  }
 }

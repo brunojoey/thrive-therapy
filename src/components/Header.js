@@ -5,8 +5,8 @@ import "./index.scss";
 const Header = () => {
   return (
     <div className="header">
-      <section className="logo">
-        <img src={logo} alt="logo"></img>
+      <section className="header-logo">
+        <img className="logo" src={logo} alt="logo" width={140} />
       </section>
       <section className="page-links">
         <Link to="/" className="header-link">Home</Link>
