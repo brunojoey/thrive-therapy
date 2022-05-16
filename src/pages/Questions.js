@@ -15,19 +15,13 @@ const Questions = () => {
         <div className="question-card">
           <h2>When Should I Seek a Referral?</h2>
           <p>
-            Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast
-            yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin
-            grog yardarm hempen halter furl. Swab barque interloper chantey
-            doubloon starboard grog black jack gangway rutters.
+          If you have concerns for your child's development please contact us. We would be happy to discuss your concerns and help you decide if an evaluation is warranted. We highly encourage early intervention and would be excited to support you and your child.
           </p>
         </div>
         <div className="question-card">
           <h2>Do You Accept Insurance?</h2>
           <p>
-            Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast
-            yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin
-            grog yardarm hempen halter furl. Swab barque interloper chantey
-            doubloon starboard grog black jack gangway rutters.
+          Please contact us for more information regarding in network insurance companies. If your insurance is out of network we will provide you with a superbill for your services. 
           </p>
         </div>
         <div className="question-card">

@@ -1,19 +1,7 @@
-import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBuilding, faEnvelope, faFax, faPhone } from "@fortawesome/free-solid-svg-icons";
 
 const Contact = () => {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [phone, setPhone] = useState("");
-  const [message, setMessage] = useState("");
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    const inputs = { name, email, phone, message };
-
-    console.log("inputs", inputs);
-  }
 
   return (
     <div className="content">
@@ -38,38 +26,50 @@ const Contact = () => {
           </div>
         </section>
         <section className="contact-form">
-          <form onSubmit={handleSubmit}>
-            <label>Name: </label>
+          <form action="mailto:admin@thrivepediatrictherapy.org" method="post" encType="text/plain" className="contact-form">
+            {/* <label for="name">Name: </label> */}
+            <p>Name:</p>
             <input
+              className="contact-form-input"
               type="text"
               required
-              value={name}
-              onChange={(e) => setName(e.target.value)}
-            ></input>
-            <label>Email: </label>
+              // value={name}
+              name="name"
+              // onChange={(e) => setName(e.target.value)}
+            />
+            {/* <label for="email">Email: </label> */}
+            <p>Email:</p>
             <input
+              className="contact-form-input"
               type="email"
               required
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-            ></input>
-            <label>Phone Number: </label>
+              // value={email}
+              name="email"
+              // onChange={(e) => setEmail(e.target.value)}
+            />
+            {/* <label for="number">Phone Number: </label> */}
+            <p>Phone Number:</p>
             <input
+              className="contact-form-input"
               type="tel"
-              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+              pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
               required
-              value={phone}
-              onChange={(e) => setPhone(e.target.value)}
-            ></input>
-            <label>Your Message: </label>
+              // value={phone}
+              name="number"
+              // onChange={(e) => setPhone(e.target.value)}
+            />
+            {/* <label for="message">Your Message: </label> */}
+            <p>Message:</p>
             <textarea
+              className="contact-form-input"
               rows="10"
               cols="30"
               required
-              value={message}
-              onChange={(e) => setMessage(e.target.value)}
-            ></textarea>
-            <button className="contact-button">Submit</button>
+              // value={message}
+              name="message"
+              // onChange={(e) => setMessage(e.target.value)}
+            />
+            <input type="submit" value="Submit" className="contact-button" />
           </form>
         </section>
       </div>

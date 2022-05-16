@@ -15,6 +15,15 @@ import Resources from "./pages/Resources";
 // import ComingSoon from "./pages/ComingSoon";
 import NotFound from "./pages/NotFound"
 import './App.scss';
+import ResourcesAgeOneTwo from "./pages/ResourcesAgeOneTwo";
+import ResourcesAgeTwoThree from "./pages/ResourcesAgeTwoThree";
+import ResourcesAgeThreeFour from "./pages/ResourcesAgeThreeFour";
+import ResourcesAgeFourFive from "./pages/ResourcesAgeFourFive";
+import ResourcesBuildingBlocks from "./pages/ResourcesBuildingBlocks";
+import ResourcesExpressVocab from "./pages/ResourcesExpressVocab";
+import ResourcesSpeechSoundsEnglish from "./pages/ResourcesSpeechSoundsEnglish";
+import ResourcesSpeechSoundsSpanish from "./pages/ResourcesSpeechSoundsSpanish";
+import ResourcesSyntaxMean from "./pages/ResourcesSyntaxMean";
 
 function App() {
   return (
@@ -29,6 +38,15 @@ function App() {
           <Route path="/about" element={<About />}/>
           <Route path="/faq" element={<Questions />}/>
           <Route path="/resources" element={<Resources />}/>
+          <Route path="/age-one-two" element={<ResourcesAgeOneTwo />} />
+          <Route path="/age-two-three" element={<ResourcesAgeTwoThree />} />
+          <Route path="/age-three-four" element={<ResourcesAgeThreeFour />} />
+          <Route path="/age-four-five" element={<ResourcesAgeFourFive />} />
+          <Route path="/building-blocks" element={<ResourcesBuildingBlocks />} />
+          <Route path="/expressive-vocabulary" element={<ResourcesExpressVocab />} />
+          <Route path="/speech-sounds-english" element={<ResourcesSpeechSoundsEnglish />} />
+          <Route path="/speech-sounds-spanish" element={<ResourcesSpeechSoundsSpanish />} />
+          <Route path="/syntax-mean-length" element={<ResourcesSyntaxMean />} />
           {/* <Route path="/" element={<ComingSoon />}/> */}
           <Route path="*" element={<NotFound />}/>
         </Routes>
