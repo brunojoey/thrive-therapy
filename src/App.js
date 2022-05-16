@@ -12,9 +12,6 @@ import Contact from "./pages/Contact";
 import About from "./pages/About";
 import Questions from "./pages/Questions";
 import Resources from "./pages/Resources";
-// import ComingSoon from "./pages/ComingSoon";
-import NotFound from "./pages/NotFound"
-import './App.scss';
 import ResourcesAgeOneTwo from "./pages/ResourcesAgeOneTwo";
 import ResourcesAgeTwoThree from "./pages/ResourcesAgeTwoThree";
 import ResourcesAgeThreeFour from "./pages/ResourcesAgeThreeFour";
@@ -24,6 +21,8 @@ import ResourcesExpressVocab from "./pages/ResourcesExpressVocab";
 import ResourcesSpeechSoundsEnglish from "./pages/ResourcesSpeechSoundsEnglish";
 import ResourcesSpeechSoundsSpanish from "./pages/ResourcesSpeechSoundsSpanish";
 import ResourcesSyntaxMean from "./pages/ResourcesSyntaxMean";
+import NotFound from "./pages/NotFound"
+import './App.scss';
 
 function App() {
   return (
@@ -47,7 +46,6 @@ function App() {
           <Route path="/speech-sounds-english" element={<ResourcesSpeechSoundsEnglish />} />
           <Route path="/speech-sounds-spanish" element={<ResourcesSpeechSoundsSpanish />} />
           <Route path="/syntax-mean-length" element={<ResourcesSyntaxMean />} />
-          {/* <Route path="/" element={<ComingSoon />}/> */}
           <Route path="*" element={<NotFound />}/>
         </Routes>
         <Footer />
