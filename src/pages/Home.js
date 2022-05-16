@@ -24,7 +24,7 @@ const Home = () => {
             multidisciplinary, state-of-the-art treatment for children, in a
             clean, safe, upbeat, and patient centered environment. Our
             therapists are compassionate, well educated and knowledgeable. Our
-            goal includes promoting maximal functional ability and quality of
+            goal is to promote maximal functional ability and quality of
             life for individuals from infancy to adulthood.
           </p>
         </div>

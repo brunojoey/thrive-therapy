@@ -45,7 +45,7 @@ const About = () => {
                 child. She looks forward to partnering with children and their
                 parents for a holistic approach to speech therapy, language
                 therapy, and feeding therapy. She strives to provide the highest
-                quality, evidence-based clinical practices for each child while
+                quality, evidence-based clinical practices for each child, while
                 guiding parents to feel successful in their roles as a team
                 member and communication partner for their child. Alyssa
                 graduated from Purdue University where she earned both her
@@ -58,9 +58,9 @@ const About = () => {
                 setting. In addition, Alyssa has experience working with
                 communication across the lifespan in acute care and inpatient
                 rehab settings. She has experience with a variety of therapy
-                including including autism, stuttering, speech sound disorders,
+                including autism, stuttering, speech sound disorders,
                 literacy, apraxia of speech, receptive-expressive language
-                disorders and delays, Down syndrome, early intervention for
+                disorders and delays, down syndrome, early intervention for
                 speech and language delays, feeding difficulties, dysphagia, and
                 use of augmentative and alternative communication (AAC). Alyssa
                 is trained and certified in natural language acquisition as well
@@ -82,8 +82,8 @@ const About = () => {
                 members of her family still reside. Christina has a heart for
                 the community and believes it's important to serve the community
                 that means so much to her. Christina has experience in the
-                private practice setting, elementary, and high school school
-                setting, as well as the skilled nursing, and Rehab facilities.
+                private practice setting, elementary, and high school 
+                setting, as well as skilled nursing and rehab facilities.
                 She earned her Bachelor's degree in communication disorders from
                 Western Kentucky University and Master's Degree in speech
                 pathology from Tennessee State University. She has experience
@@ -100,7 +100,7 @@ const About = () => {
                 Western Psychological Services on administration and scoring of
                 the Autism Diagnostic Observation Schedule™, Second Edition
                 (ADOS-2) assessment. She was also in charge of conducting and
-                educating families on test results/ the new diagnosis of Autism.
+                educating families on test results/ diagnosis of Autism.
                 Christina enjoys trying new recipes, being outdoors, baking,
                 organizing, exploring a new town, spending time with friends and
                 family, playing with her Golden Doodle, Riley, and lots of

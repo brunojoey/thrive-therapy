@@ -26,8 +26,7 @@ const Services = () => {
               />
               <p className="services-paragraph">
                 Speech and language therapy sessions are individualized sessions
-                that actively engage your child towards meeting goals set and
-                agreed upon in the child's initial evaluation. Activities are
+                that actively engage your child meeting goals agreed upon in the child's initial evaluation. Activities are
                 chosen to be engaging and tailored to your child's interest and
                 learning. Speech and language therapy may address a wide range
                 of skills including:
@@ -67,7 +66,7 @@ const Services = () => {
                 handwriting, cutting with scissors, tying shoes, play skills,
                 brushing teeth, dressing, hand-eye coordination and other fine
                 motor skills. Occupational therapists also assess and address
-                sensory integration (the ability of the brain to take in
+                sensory integration(the ability of the brain to take in
                 sensations). Occupational therapists will work with the child
                 and their family to understand how the child processes sensory
                 stimuli including visual, tactile, smell, movement, and

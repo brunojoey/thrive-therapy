@@ -6,7 +6,7 @@ const Questions = () => {
         <div className="question-card">
           <h2>How Do I Get Started?</h2>
           <p>
-            Call or email Thrive Pediatric Therapy at
+            Email Thrive Pediatric Therapy at
             admin@thrivepediatrictherapy.org or call 615-802-8051 to discuss
             your concerns and determine if your child might benefit from an
             evaluation and/or therapy services.
