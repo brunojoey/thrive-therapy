@@ -13,7 +13,7 @@ const Footer = () => {
         <a href="mailto: admin@thrivepediatrictherapy.org" className="email-link">Send us an Email!</a>
       </section>
       <section className="social-links">
-        <a href="https://www.instagram.com/thrive.pediatrictherapy" className="instagram"><FontAwesomeIcon icon={faInstagram} /></a>
+        <a href="https://www.instagram.com/thrive.pediatrictherapy/" className="instagram"><FontAwesomeIcon icon={faInstagram} /></a>
       </section>
     </div>
   )
