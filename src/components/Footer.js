@@ -4,7 +4,7 @@ import "./index.scss";
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <footer className="footer">
       <section className="footer-info">
         <h2>Thrive Pediatric Therapy</h2>
         <p>170 W Franklin Street Gallatin, TN 37066 </p>
@@ -15,7 +15,7 @@ const Footer = () => {
       <section className="social-links">
         <a href="https://www.instagram.com/thrive.pediatrictherapy/" className="instagram"><FontAwesomeIcon icon={faInstagram} /></a>
       </section>
-    </div>
+    </footer>
   )
 };
 
