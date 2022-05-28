@@ -139,16 +139,35 @@
 
   .social-links {
     margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
   }
+
   .instagram {
-    font-size: 2.5rem;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    transition: 0.3s ease;
+
+    &:hover {
+      color: $color-lightTeal;
+      font-size: 2.5rem;
+    }
+  }
+  .instagram-link {
+    font-size: 1rem;
     color: $color-white;
+    text-decoration: none;
     transition: 0.3s ease;
 
     &:hover {
       color: $color-lightOrange;
+      text-decoration: underline $color-lightTeal 3px;
+      transform: scaleY(1.5);
     }
   }
+
+
 
   .email-link {
     color: $color-white;
