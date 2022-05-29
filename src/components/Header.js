@@ -5,7 +5,7 @@ import useMediaQuery from "../utils/useMediaQuery";
 import "./index.scss";
 
 const Header = () => {
-  const matches = useMediaQuery("(min-width: 768px)");
+  const matches = useMediaQuery("(min-width: 600px)");
   return (
     <header className="header">
       <section className="header-logo">
