@@ -14,7 +14,7 @@ const Footer = () => {
       </section>
       <section className="social-links">
         <FontAwesomeIcon icon={faInstagram} className="instagram" />
-        <a href="https://www.instagram.com/thrive.pediatrictherapy/" className="instagram-link">@thrive.pediatrictherapy</a>
+        <a href="https://instagram.com/thrive.pediatrictherapy/" className="instagram-link">@thrive.pediatrictherapy</a>
       </section>
     </footer>
   )

@@ -110,6 +110,10 @@
       font-size: 1.2rem;
     }
   }
+
+  @include respond(phone) {
+    display: block;
+  }
 }
 
 .owner-home-title {
