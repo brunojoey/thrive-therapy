@@ -149,6 +149,12 @@
     border: 5px solid $color-lightOrange;
     box-shadow: 2px 2px 5px #888;
   }
+
+  @include respond(phone) {
+    > img {
+      width: 15%;
+    }
+  }
 }
 
 // About Page Styling
