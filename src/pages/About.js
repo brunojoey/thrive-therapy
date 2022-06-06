@@ -25,9 +25,7 @@ const About = () => {
             in their specific developmental goals. Thrive Pediatric Therapy
             prides itself on a collaborative approach to ensure families are
             supported by establishing a relationship with children and families
-            and utilizing an engaging, holistic, and fun approach. identifying
-            concerns in specialized evaluations and the development of goals to
-            meet the needs of the patient and the family.
+            and utilizing an engaging, holistic, and fun approach.
           </p>
         </section>
         <h2 className="about-owners-title">The Owners</h2>
