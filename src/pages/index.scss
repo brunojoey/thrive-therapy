@@ -210,7 +210,7 @@
 
     &-alyssa {
       display: grid;
-      grid-template-columns: 3fr 12fr;
+      grid-template-columns: 3fr 10fr;
       align-items: center;
 
       // width: 50%;
@@ -233,6 +233,21 @@
       text-align: center;
     }
   }
+
+  &-staff {
+    >h2 {
+      text-align: center;
+    }
+
+    &-jordan {
+      display: grid;
+      grid-template-columns: 3fr 10fr;
+      text-align: left;
+      justify-items: center;
+      margin: 1rem;
+    }
+  }
+
 }
 
 // Services Page Styling

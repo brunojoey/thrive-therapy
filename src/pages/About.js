@@ -37,7 +37,7 @@ const About = () => {
               <img src={alyssaPhoto} alt="Alyssa Williams" width="250" />
             </div>
             <div>
-              <h2>Alyssa Williams M.S. CCC-SLP</h2>
+              <h2>Alyssa Williams | M.S. CCC-SLP</h2>
               <p className="owners-paragraph">
                 Alyssa is dedicated to providing individualized and engaging
                 therapy while having fun and building a relationship with each
@@ -75,7 +75,7 @@ const About = () => {
           </div>
           <div className="about-owners-christina">
             <div>
-              <h2>Christina Bruno M.S. CCC-SLP</h2>
+              <h2>Christina Bruno | M.S. CCC-SLP</h2>
               <p>
                 Christina grew up in the Sumner county area where several
                 members of her family still reside. Christina has a heart for
@@ -113,14 +113,14 @@ const About = () => {
           </div>
         </section>
         <section className="about-staff">
-          <h2>Here's Our Amazing Staff!</h2>
+          <h2>Meet Our Amazing Staff!</h2>
           <div class="about-staff-jordan">
             <div>
-              <h3>Meet Jordan!</h3>
+              <h3>Occupational Therapist</h3>
               <img src={jordanPhoto} alt="Jordan Sanders" width="250" />
             </div>
             <div>
-              <h2>Jordan Sanders | Occupational Therapist | OTR/L</h2>
+              <h2>Jordan Sanders | OTR/L</h2>
               <p>
                 Jordan graduated from the University of Tennessee Health Science
                 Center in 2016 with her Masters in Occupational Therapy. Her
