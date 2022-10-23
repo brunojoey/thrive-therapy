@@ -1,5 +1,5 @@
 import christinaPhoto from "../assets/owner-files/IMG_1809.jpg";
-import alyssaPhoto from "../assets/owner-files/IMG_3320.jpg";
+import alyssaPhoto from "../assets/owner-files/IMG_6337.jpg";
 import pizza from "../assets/stock-photos/troy-t-WA2EE7YtzC4-unsplash.jpg";
 import camera from "../assets/stock-photos/tanaphong-toochinda-GagC07wVvck-unsplash.jpg";
 import strawberries from "../assets/stock-photos/ryland-dean-D6Rx5fE5p8w-unsplash.jpg";
