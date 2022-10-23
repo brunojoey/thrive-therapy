@@ -1,5 +1,6 @@
 import christinaPhoto from "../assets/owner-files/IMG_1809.jpg";
-import alyssaPhoto from "../assets/owner-files/IMG_3320.jpg";
+import alyssaPhoto from "../assets/owner-files/IMG_6337.jpg";
+import jordanPhoto from "../assets/owner-files/IMG_4068.jpg";
 import drawing from "../assets/stock-photos/erika-fletcher-YfNWGrQI3a4-unsplash.jpg"
 
 const About = () => {
@@ -111,6 +112,35 @@ const About = () => {
             </div>
           </div>
         </section>
+        <section className="about-staff">
+          <h2>Here's Our Amazing Staff!</h2>
+          <div class="about-staff-jordan">
+            <div>
+              <h3>Meet Jordan!</h3>
+              <img src={jordanPhoto} alt="Jordan Sanders" width="250" />
+            </div>
+            <div>
+              <h2>Jordan Sanders | Occupational Therapist | OTR/L</h2>
+              <p>
+                Jordan graduated from the University of Tennessee Health Science
+                Center in 2016 with her Masters in Occupational Therapy. Her
+                Master's degree was preceded by a Bachelor's degree in Psychology
+                from Cumberland University. She has experience working in
+                outpatient pediatrics and in acute care settings. Jordan has a
+                passion for working with children of all abilities and fostering
+                development in the early years of life. She loves partnering with
+                children, their families, and their team to promote meaningful
+                participation in their activities of daily life. Jordan enjoys
+                incorporating a combination of play-based, holistic,
+                evidenced-based, and sensory-based approaches to treatment,
+                encouraging children to develop functional skills in everyday
+                activities. In her free time she enjoys traveling, trying new
+                restaurants, spending time with family, friends, and her dog Ace.
+              </p>
+            </div>
+          </div>
+        </section>
+
       </div>
     </div>
   );
