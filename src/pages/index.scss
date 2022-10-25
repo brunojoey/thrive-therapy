@@ -552,6 +552,16 @@
       padding: 1rem;
       width: inherit;
     }
+    &-staff {
+      > h2 {
+        width: 80%;
+      }
+
+      &-jordan {
+        display: flex;
+        flex-direction: column-reverse;
+      }
+    }
   }
 
   .services {
