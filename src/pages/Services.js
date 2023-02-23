@@ -26,10 +26,10 @@ const Services = () => {
               />
               <p className="services-paragraph">
                 Speech and language therapy sessions are individualized sessions
-                that actively engage your child meeting goals agreed upon in the child's initial evaluation. Activities are
-                chosen to be engaging and tailored to your child's interest and
-                learning. Speech and language therapy may address a wide range
-                of skills including:
+                that actively engage your child meeting goals agreed upon in the
+                child's initial evaluation. Activities are chosen to be engaging
+                and tailored to your child's interest and learning. Speech and
+                language therapy may address a wide range of skills including:
               </p>
               <ul>
                 <li>Social use of language or pragmatic language skills</li>
@@ -92,7 +92,9 @@ const Services = () => {
                   Feeding therapy sessions target feeding goals recommended and
                   agreed upon following the child's initial evaluation.
                 </p>
-                <h3>Does my child have a pediatric feeding disorder?</h3>
+                <h3 className="feeding-therapy-h3">
+                  Does my child have a pediatric feeding disorder?
+                </h3>
                 <ul>
                   <li>Limited repertoire of foods</li>
                   <li>Anxiety around new foods</li>

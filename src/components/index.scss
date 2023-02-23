@@ -38,6 +38,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   border-bottom: 2px solid $color-lightTeal;
+  height: 100%;
 
   @include respond(phone) {
     display: flex;

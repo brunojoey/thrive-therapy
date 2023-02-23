@@ -5,7 +5,8 @@
 // Home Page
 .home-welcome {
   background-image: url("../assets/stock-photos/andre-hunter-PhuGmoubvo8-unsplash.jpg");
-  height: 80vh;
+  background-size: contain;
+  height: 60vh;
   width: 100%;
   position: relative;
   background-size: cover;
@@ -18,11 +19,11 @@
     background-color: $color-lightRed;
     font-family: "Quicksand";
     color: $color-white;
-    width: 45%;
+    width: 50%;
     margin: 0 auto;
     text-align: center;
     animation: fadeItemIn 2s;
-    border-radius: 50px;
+    border-radius: .75rem;
   }
 }
 
@@ -32,7 +33,7 @@
     margin-top: 3rem;
     font-size: 1.7rem;
   }
-
+  
   > p {
     margin: 1rem;
     font-size: 1.2rem;
@@ -47,12 +48,14 @@
   text-align: center;
   height: 100vh;
   padding: 1.5rem;
-
+  border-radius: .75rem;
+  
   &-one {
     background-color: $color-lightOrange;
     display: grid;
     align-content: center;
     justify-items: center;
+    border-radius: .75rem 0 0 .75rem;
 
     > h3 {
       font-size: 1.7rem;
@@ -60,7 +63,7 @@
 
     > img {
       width: 75%;
-      border-radius: 0.5rem;
+      border-radius: 1rem;
     }
 
     > p {
@@ -81,7 +84,7 @@
 
     > img {
       width: 75%;
-      border-radius: 0.5rem;
+      border-radius: 1rem;
     }
 
     > p {
@@ -95,6 +98,7 @@
     display: grid;
     align-content: center;
     justify-items: center;
+    border-radius: 0 .75rem .75rem 0;
 
     > h3 {
       font-size: 1.7rem;
@@ -102,7 +106,7 @@
 
     > img {
       width: 75%;
-      border-radius: 0.5rem;
+      border-radius: 1rem;
     }
 
     > p {
@@ -173,8 +177,8 @@
     > h2 {
       background-color: $color-lightOrange;
       padding: 1rem;
-      width: 45%;
-      border-radius: 1rem;
+      width: 50%;
+      border-radius: .75rem;
     }
   }
 
@@ -191,7 +195,7 @@
       padding: 0;
 
       > img {
-        border-radius: 1rem;
+        border-radius: .75rem;
       }
     }
   }
@@ -235,7 +239,7 @@
   }
 
   &-staff {
-    >h2 {
+    > h2 {
       text-align: center;
     }
 
@@ -259,11 +263,11 @@
     padding: 1rem;
 
     &-one {
-      font-size: 1.3rem;
+      font-size: 1.2rem;
       text-align: center;
-      padding: 1rem;
+      padding: .75rem;
       background-color: $color-lightOrange;
-      border-radius: 1rem;
+      border-radius: .75rem;
     }
   }
 }
@@ -290,7 +294,7 @@
   padding-bottom: 1rem;
 
   > p {
-    width: 40%;
+    width: 80%;
     margin: 1rem;
     font-size: 1.2rem;
   }
@@ -312,13 +316,17 @@
     padding-bottom: 1rem;
     display: grid;
     grid-template-columns: 4fr 10fr;
-    grid-gap: 1rem;
-    width: 60%;
+    grid-gap: rem;
+    width: 80%;
   
     &-paragraph {
-      width: 50%;
-      margin: 1rem;
+      width: 60%;
+      margin: .75rem;
       font-size: 1.2rem;
+    }
+
+    &-h3 {
+      margin-left: .75rem;
     }
   }
 }
@@ -401,25 +409,44 @@
     padding: 1rem;
     margin: 1rem 1rem 3rem 1rem;
     width: 20%;
-    box-shadow: 2px 2px 9px #555;
     border-radius: 5px;
     border: 5px solid $color-lightTeal;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: .3s ease;
 
+    &:hover {
+      box-shadow: 2px 2px 9px #555;
+    }
+    
     &-link {
       color: $color-white;
       text-decoration: none;
-      transition: 0.3s ease;
-
+      transition: 3s ease;
+      
       &:hover {
         text-decoration: underline;
         text-underline-offset: 2px;
       }
     }
   }
+}
+
+.oval-one {
+  width: 500px;
+  height: 300px;
+  border-radius: 250px / 150px;
+  background-color: blue;
+}
+
+.oval-two {
+  width: 200px;
+  height: 100px;
+  border-radius: 100px / 50px;
+  background: red;
+  overflow-x: 50rem;
 }
 
 // FAQ Page Styling
