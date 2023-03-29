@@ -1,6 +1,7 @@
 import christinaPhoto from "../assets/owner-files/IMG_1809.jpg";
 import alyssaPhoto from "../assets/owner-files/IMG_6337.jpg";
 import jordanPhoto from "../assets/owner-files/IMG_4068.jpg";
+import maggiePhoto from "../assets/owner-files/Headshot.PNG";
 import drawing from "../assets/stock-photos/erika-fletcher-YfNWGrQI3a4-unsplash.jpg"
 
 const About = () => {
@@ -81,7 +82,7 @@ const About = () => {
                 members of her family still reside. Christina has a heart for
                 the community and believes it's important to serve the community
                 that means so much to her. Christina has experience in the
-                private practice setting, elementary, and high school 
+                private practice setting, elementary, and high school
                 setting, as well as skilled nursing and rehab facilities.
                 She earned her Bachelor's degree in communication disorders from
                 Western Kentucky University and Master's Degree in speech
@@ -114,7 +115,7 @@ const About = () => {
         </section>
         <section className="about-staff">
           <h2>Meet Our Amazing Staff!</h2>
-          <div class="about-staff-jordan">
+          <div className="about-staff-jordan">
             <div>
               <h3>Occupational Therapist</h3>
               <img src={jordanPhoto} alt="Jordan Sanders" width="250" />
@@ -139,8 +140,37 @@ const About = () => {
               </p>
             </div>
           </div>
+          <div className="about-staff-maggie">
+            <div>
+              <h2>Maggie Bill | M.S. CCC-SLP </h2>
+              <p>
+                Maggie grew up in Indiana, but has loved living in Tennessee for the 
+                last several years. She graduated from Saint Louis University with her 
+                undergraduate degree and Purdue University with her graduate degree. 
+                She has experience working in the private practice, preschool, and 
+                elementary school settings with a diverse range of ages and goals. She 
+                enjoys working with children with early language delays, receptive 
+                and expressive language impairments, gestalt language processing, 
+                autism, augmentative and alternative communication (AAC), speech 
+                sound disorders, stuttering, and literacy needs. She is passionate 
+                about building relationships with children and their families, 
+                using a child-led, play-based approach to therapy, and using 
+                strengths to help children grow. In her free time, she enjoys hiking, 
+                baking, traveling, and spending time with friends and family.
+              </p>
+            </div>
+            <div>
+              <h3>Speech Therapist</h3>
+              <img src={maggiePhoto} alt="Maggie Bill" width="250" />
+            </div>
+          </div>
+          <div className="about-staff-coming-soon">
+            <h3>And More Staff Coming Soon!</h3>
+            <li>Ariana Musolino | COTA </li> 
+            <li>Alicia Kurth | COTA</li> 
+            <li>Kaylee Coghill | M.S. CCC-SLP</li>
+          </div>
         </section>
-
       </div>
     </div>
   );

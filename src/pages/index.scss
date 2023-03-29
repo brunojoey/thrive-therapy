@@ -228,10 +228,16 @@
     &-christina {
       display: grid;
       grid-template-columns: 12fr 3fr;
+      column-gap: 3ch;
       text-align: left;
       justify-items: center;
       align-items: center;
       margin: 1rem;
+
+      & > div > h3 {
+        display: flex;
+        justify-content: flex-end;
+      }
     }
     &-title {
       text-align: center;
@@ -240,6 +246,7 @@
 
   &-staff {
     > h2 {
+      width: 100%;
       text-align: center;
     }
 
@@ -250,8 +257,27 @@
       justify-items: center;
       margin: 1rem;
     }
-  }
 
+    &-maggie {
+      display: grid;
+      grid-template-columns: 12fr 3fr;
+      column-gap: 3ch;
+      text-align: left;
+      justify-items: center;
+      margin: 1rem;
+
+      > div > h3 {
+        display: flex;
+        justify-content: flex-end;
+      }
+    }
+
+    &-coming-soon {
+      > li {
+        list-style: none;
+      }
+    }
+  }
 }
 
 // Services Page Styling
@@ -574,10 +600,29 @@
       display: flex;
       flex-direction: column;
 
+      > div > h3 {
+        text-align: center;
+      }
+      
+      > div > h2 {
+        text-align: center;
+        font-size: 1.3rem;
+        font-weight: bold;
+      }
     }
     &-owners-christina {
       display: flex;
       flex-direction: column-reverse;
+
+      > div > h3 {
+        text-align: center;
+      }
+
+      > div > h2 {
+        text-align: center;
+        font-size: 1.3rem;
+        font-weight: bold;
+      }
     }
     .owners-paragraph {
       padding: 1rem;
@@ -585,12 +630,54 @@
     }
     &-staff {
       > h2 {
-        width: 80%;
+        width: 100%;
       }
 
       &-jordan {
         display: flex;
+        flex-direction: column;
+
+        > div > h3 {
+          text-align: center;
+        }
+        > div > h2 {
+          text-align: center;
+          font-size: 1.3rem;
+          font-weight: bold;
+        }
+  
+
+        > div > img {
+          display: flex;
+          margin: 0 auto;
+        }
+      }
+
+      &-maggie {
+        display: flex;
         flex-direction: column-reverse;
+
+        > div > h3 {
+          text-align: center;
+        }
+        > div > h2 {
+          text-align: center;
+          font-size: 1.3rem;
+          font-weight: bold;
+        }
+  
+        > div > img {
+          display: flex;
+          margin: 0 auto;
+        }
+      }
+
+      &-coming-soon {
+        text-align: center;
+
+        > li {
+          list-style: none;
+        }
       }
     }
   }

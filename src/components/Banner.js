@@ -1,8 +1,6 @@
 const Banner = () => {
   return (
-    <div className="banner">
-      <h3 className="banner-content">Contact Us for More Information! (615) 802-8051</h3>
-    </div>
+    <h3 className="banner">Contact Us for More Information! (615) 802-8051</h3>
   )
 }
 
