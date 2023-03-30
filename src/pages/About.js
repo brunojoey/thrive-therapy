@@ -165,7 +165,7 @@ const About = () => {
             </div>
           </div>
           <div className="about-staff-coming-soon">
-            <h3>And More Staff Coming Soon!</h3>
+            <h3>And More Bios Coming Soon!</h3>
             <li>Ariana Musolino | COTA </li> 
             <li>Alicia Kurth | COTA</li> 
             <li>Kaylee Coghill | M.S. CCC-SLP</li>
