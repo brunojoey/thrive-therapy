@@ -167,8 +167,8 @@ const About = () => {
           </div>
           <div className="about-staff-kaylee">
             <div>
-              <h3>Speech Therapist</h3>
-              <img src={maggiePhoto} alt="Kaylee Coghill" width="250" />
+              <h3 style={{margin: ".25rem"}}>Speech Language Pathologist</h3>
+              <img src={kayleePhoto} alt="Kaylee Coghill" width="250" />
             </div>
             <div>
               <h2>Kaylee Coghill | M.A. CCC-SLP </h2>
