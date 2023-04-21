@@ -10,19 +10,19 @@ const Contact = () => {
         <section className="contact-info">
           <div className="contact-square">
             <FontAwesomeIcon icon={faPhone} className="contact-fa"/>
-            <p>(615) 802-8051</p>
+            <p>Phone Number: (615) 802-8051</p>
           </div>
           <div className="contact-square">
             <FontAwesomeIcon icon={faBuilding} className="contact-fa"/>
-            <p>170 W Franklin Street Gallatin, TN 37066</p>
+            <p>Address: 170 W Franklin Street Gallatin, TN 37066</p>
           </div>
           <div className="contact-square">
             <FontAwesomeIcon icon={faEnvelope} className="contact-fa"/>
-            <p>admin@thrivepediatrictherapy.org</p>
+            <p>E-mail: admin@thrivepediatrictherapy.org</p>
           </div>
           <div className="contact-square">
             <FontAwesomeIcon icon={faFax} className="contact-fa"/>
-            <p>(833) 901-2965</p>
+            <p>Fax Number: (833) 901-2965</p>
           </div>
         </section>
         <section className="contact-form">

@@ -2,6 +2,7 @@ import christinaPhoto from "../assets/owner-files/IMG_1809.jpg";
 import alyssaPhoto from "../assets/owner-files/IMG_6337.jpg";
 import jordanPhoto from "../assets/owner-files/IMG_4068.jpg";
 import maggiePhoto from "../assets/owner-files/Headshot.PNG";
+import kayleePhoto from "../assets/owner-files/2022-11-13_01-34-31_030.jpeg"
 import drawing from "../assets/stock-photos/erika-fletcher-YfNWGrQI3a4-unsplash.jpg"
 
 const About = () => {
@@ -144,18 +145,18 @@ const About = () => {
             <div>
               <h2>Maggie Bill | M.S. CCC-SLP </h2>
               <p>
-                Maggie grew up in Indiana, but has loved living in Tennessee for the 
-                last several years. She graduated from Saint Louis University with her 
-                undergraduate degree and Purdue University with her graduate degree. 
-                She has experience working in the private practice, preschool, and 
-                elementary school settings with a diverse range of ages and goals. She 
-                enjoys working with children with early language delays, receptive 
-                and expressive language impairments, gestalt language processing, 
-                autism, augmentative and alternative communication (AAC), speech 
-                sound disorders, stuttering, and literacy needs. She is passionate 
-                about building relationships with children and their families, 
-                using a child-led, play-based approach to therapy, and using 
-                strengths to help children grow. In her free time, she enjoys hiking, 
+                Maggie grew up in Indiana, but has loved living in Tennessee for the
+                last several years. She graduated from Saint Louis University with her
+                undergraduate degree and Purdue University with her graduate degree.
+                She has experience working in the private practice, preschool, and
+                elementary school settings with a diverse range of ages and goals. She
+                enjoys working with children with early language delays, receptive
+                and expressive language impairments, gestalt language processing,
+                autism, augmentative and alternative communication (AAC), speech
+                sound disorders, stuttering, and literacy needs. She is passionate
+                about building relationships with children and their families,
+                using a child-led, play-based approach to therapy, and using
+                strengths to help children grow. In her free time, she enjoys hiking,
                 baking, traveling, and spending time with friends and family.
               </p>
             </div>
@@ -164,11 +165,22 @@ const About = () => {
               <img src={maggiePhoto} alt="Maggie Bill" width="250" />
             </div>
           </div>
+          <div className="about-staff-kaylee">
+            <div>
+              <h3>Speech Therapist</h3>
+              <img src={maggiePhoto} alt="Kaylee Coghill" width="250" />
+            </div>
+            <div>
+              <h2>Kaylee Coghill | M.A. CCC-SLP </h2>
+              <p>
+                Kaylee feels it is a joy and privilege to help children and their families learn and grow together. Kaylee uses evidence-based treatment approaches that are tailored to each unique child in order to provide functional, fun therapy that has a positive impact on the child and their family. Kaylee specializes in early language development skills and creating positive experiences around meal times with picky eaters. Kaylee completed her Bachelor's degree at Western Kentucky University in 2016 and her Master's degree in Communication Sciences and Disorders at St. Louis University in 2018. Kaylee lives in Hendersonville with her husband, Ethan, an Aussiedoodle named Remi, and is welcoming a baby boy this July. When not at work, Kaylee loves to go on walks, sit on the back patio, have morning coffee, and listen to podcasts. Kaylee looks forward to supporting your child and family!
+              </p>
+            </div>
+          </div>
           <div className="about-staff-coming-soon">
             <h3>And More Bios Coming Soon!</h3>
-            <li>Ariana Musolino | COTA </li> 
-            <li>Alicia Kurth | COTA</li> 
-            <li>Kaylee Coghill | M.S. CCC-SLP</li>
+            <li>Ariana Musolino | COTA </li>
+            <li>Alicia Kurth | COTA</li>
           </div>
         </section>
       </div>

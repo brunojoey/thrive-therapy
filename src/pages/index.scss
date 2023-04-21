@@ -272,6 +272,14 @@
       }
     }
 
+    &-kaylee {
+      display: grid;
+      grid-template-columns: 3fr 10fr;
+      text-align: left;
+      justify-items: center;
+      margin: 1rem;
+    }
+
     &-coming-soon {
       > li {
         list-style: none;
@@ -656,6 +664,25 @@
       &-maggie {
         display: flex;
         flex-direction: column-reverse;
+
+        > div > h3 {
+          text-align: center;
+        }
+        > div > h2 {
+          text-align: center;
+          font-size: 1.3rem;
+          font-weight: bold;
+        }
+  
+        > div > img {
+          display: flex;
+          margin: 0 auto;
+        }
+      }
+
+      &-kaylee {
+        display: flex;
+        flex-direction: column;
 
         > div > h3 {
           text-align: center;
