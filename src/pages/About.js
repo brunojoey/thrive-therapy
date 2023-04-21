@@ -161,7 +161,7 @@ const About = () => {
               </p>
             </div>
             <div>
-              <h3>Speech Therapist</h3>
+              <h3>Speech Language Pathologist</h3>
               <img src={maggiePhoto} alt="Maggie Bill" width="250" />
             </div>
           </div>
