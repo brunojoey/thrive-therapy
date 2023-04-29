@@ -8,7 +8,7 @@ const Footer = () => {
       <h1 style={{textAlign: "center"}}>Thrive Pediatric Therapy</h1>
       <section className="footer-content">
         <div className="footer-info">
-          <p>170 W Franklin Street Gallatin, TN 37066 </p>
+          <p>144 College Street Gallatin, TN 37066 </p>
           <p>(615) 802-8051</p>
           <p>Monday - Thursday 8-6 PM</p>
           <a href="mailto: admin@thrivepediatrictherapy.org" className="email-link">Send us an Email!</a>

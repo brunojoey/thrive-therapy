@@ -14,7 +14,7 @@ const Contact = () => {
           </div>
           <div className="contact-square">
             <FontAwesomeIcon icon={faBuilding} className="contact-fa"/>
-            <p>Address: 170 W Franklin Street Gallatin, TN 37066</p>
+            <p>Address: 144 College Street Gallatin, TN 37066 </p>
           </div>
           <div className="contact-square">
             <FontAwesomeIcon icon={faEnvelope} className="contact-fa"/>
