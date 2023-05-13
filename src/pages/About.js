@@ -3,6 +3,7 @@ import alyssaPhoto from "../assets/owner-files/IMG_6337.jpg";
 import jordanPhoto from "../assets/owner-files/IMG_4068.jpg";
 import maggiePhoto from "../assets/owner-files/Headshot.PNG";
 import kayleePhoto from "../assets/owner-files/2022-11-13_01-34-31_030.jpeg"
+import arianaPhoto from "../assets/owner-files/IMG_2299.jpg"
 import drawing from "../assets/stock-photos/erika-fletcher-YfNWGrQI3a4-unsplash.jpg"
 
 const About = () => {
@@ -167,19 +168,52 @@ const About = () => {
           </div>
           <div className="about-staff-kaylee">
             <div>
-              <h3 style={{margin: ".25rem"}}>Speech Language Pathologist</h3>
+              <h3 style={{ margin: ".25rem" }}>Speech Language Pathologist</h3>
               <img src={kayleePhoto} alt="Kaylee Coghill" width="250" />
             </div>
             <div>
               <h2>Kaylee Coghill | M.A. CCC-SLP </h2>
               <p>
-                Kaylee feels it is a joy and privilege to help children and their families learn and grow together. Kaylee uses evidence-based treatment approaches that are tailored to each unique child in order to provide functional, fun therapy that has a positive impact on the child and their family. Kaylee specializes in early language development skills and creating positive experiences around meal times with picky eaters. Kaylee completed her Bachelor's degree at Western Kentucky University in 2016 and her Master's degree in Communication Sciences and Disorders at St. Louis University in 2018. Kaylee lives in Hendersonville with her husband, Ethan, an Aussiedoodle named Remi, and is welcoming a baby boy this July. When not at work, Kaylee loves to go on walks, sit on the back patio, have morning coffee, and listen to podcasts. Kaylee looks forward to supporting your child and family!
+                Kaylee feels it is a joy and privilege to help children and their 
+                families learn and grow together. Kaylee uses evidence-based treatment 
+                approaches that are tailored to each unique child in order to provide 
+                functional, fun therapy that has a positive impact on the child and 
+                their family. Kaylee specializes in early language development skills 
+                and creating positive experiences around meal times with picky eaters. 
+                Kaylee completed her Bachelor's degree at Western Kentucky University 
+                in 2016 and her Master's degree in Communication Sciences and Disorders 
+                at St. Louis University in 2018. Kaylee lives in Hendersonville with her 
+                husband, Ethan, an Aussiedoodle named Remi, and is welcoming a baby boy 
+                this July. When not at work, Kaylee loves to go on walks, sit on the back 
+                patio, have morning coffee, and listen to podcasts. Kaylee looks forward 
+                to supporting your child and family!
               </p>
+            </div>
+          </div>
+          <div className="about-staff-ariana">
+            <div>
+              <h2>Ariana Musolino | COTA</h2>
+              <p>
+                Ariana graduated from St. Catherine's University in 2019. She grew up 
+                in Folsom, California but has been loving Tennessee life since 2020. 
+                Her passion for helping others was sparked when she volunteered in the 
+                special education classroom in high school, where she was first introduced 
+                to occupational therapy. Ariana has experience working in multiple settings, 
+                however found her passion in pediatrics. Ariana has a passion for working 
+                with children of all abilities and fostering development in the early years 
+                of life. Ariana loves partnering with children, their families, and their team 
+                to promote meaningful participation in their activities of daily life. 
+                In her free time she enjoys traveling, trying new restaurants, cheering 
+                on the Volunteers, and spending time with family, friends, and her dog Blu!
+              </p>
+            </div>
+            <div>
+              <h3 style={{ margin: ".25rem" }}>COTA (Certified Occupational Therapy Assistant)</h3>
+              <img src={arianaPhoto} alt="Ariana Musolino" width="250" />
             </div>
           </div>
           <div className="about-staff-coming-soon">
             <h3>And More Bios Coming Soon!</h3>
-            <li>Ariana Musolino | COTA </li>
             <li>Alicia Kurth | COTA</li>
           </div>
         </section>
