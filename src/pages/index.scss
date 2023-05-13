@@ -699,6 +699,25 @@
         }
       }
 
+      &-ariana {
+        display: flex;
+        flex-direction: column-reverse;
+
+        > div > h3 {
+          text-align: center;
+        }
+        > div > h2 {
+          text-align: center;
+          font-size: 1.3rem;
+          font-weight: bold;
+        }
+  
+        > div > img {
+          display: flex;
+          margin: 0 auto;
+        }
+      }
+
       &-coming-soon {
         text-align: center;
 
