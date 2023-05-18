@@ -18,7 +18,7 @@ const Contact = () => {
           </div>
           <div className="contact-square">
             <FontAwesomeIcon icon={faEnvelope} className="contact-fa"/>
-            <p>E-mail: admin@thrivepediatrictherapy.org</p>
+            <p>E-Mail: admin@thrivepediatrictherapy.org</p>
           </div>
           <div className="contact-square">
             <FontAwesomeIcon icon={faFax} className="contact-fa"/>

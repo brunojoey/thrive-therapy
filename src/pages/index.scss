@@ -148,6 +148,7 @@
 
 .owner {
   text-align: center;
+
   > img {
     border-radius: 5px;
     border: 5px solid $color-lightOrange;
@@ -280,6 +281,37 @@
       margin: 1rem;
     }
 
+    &-ariana {
+      display: grid;
+      grid-template-columns: 12fr 3fr;
+      column-gap: 3ch;
+      text-align: left;
+      justify-items: center;
+      margin: 1rem;
+
+      > div > h3 {
+        display: flex;
+        justify-content: flex-end;
+        font-size: 100%;
+      }
+    }
+
+    &-alicia {
+      display: grid;
+      grid-template-columns: 3fr 10fr;
+      text-align: left;
+      justify-items: center;
+      margin: 1rem;
+
+      > div > h3 {
+        display: flex;
+        justify-content: flex-end;
+        font-size: 100%;
+      }
+
+    }
+
+
     &-coming-soon {
       > li {
         list-style: none;
@@ -396,13 +428,27 @@
       justify-items: space-between;
 
       > input {
-        width: 35%;
+        width: 40%;
         margin-bottom: 1rem;
+        outline: none;
+        transition: 0.1s ease;
+
+        &:focus {
+          border: 3px solid $color-lightTeal;
+          border-radius: 3px;
+        }
       }
 
       > textarea {
-        width: 35%;
+        width: 40%;
         margin-bottom: 1rem;
+        outline: none;
+        transition: 0.1s ease;
+        
+        &:focus {
+          border: 3px solid $color-lightTeal;
+          border-radius: 3px;
+        } 
       }
     }
   }
@@ -410,7 +456,7 @@
   &-button {
     color: $color-white;
     background-color: $color-lightTeal;
-    width: 20%;
+    width: 30%;
     padding: 0.25rem;
     font-weight: bold;
     border: none;
@@ -419,7 +465,7 @@
 
     &:hover {
       box-shadow: 4px 4px 8px #555;
-      transform: translateY(-0.25rem);
+      transform: translateY(-0.10rem);
     }
   }
 }
@@ -636,6 +682,7 @@
       padding: 1rem;
       width: inherit;
     }
+
     &-staff {
       > h2 {
         width: 100%;
@@ -681,6 +728,25 @@
       }
 
       &-kaylee {
+        display: flex;
+        flex-direction: column;
+
+        > div > h3 {
+          text-align: center;
+        }
+        > div > h2 {
+          text-align: center;
+          font-size: 1.3rem;
+          font-weight: bold;
+        }
+  
+        > div > img {
+          display: flex;
+          margin: 0 auto;
+        }
+      }
+
+      &-alicia {
         display: flex;
         flex-direction: column;
 

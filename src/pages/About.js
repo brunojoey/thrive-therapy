@@ -3,7 +3,8 @@ import alyssaPhoto from "../assets/owner-files/IMG_6337.jpg";
 import jordanPhoto from "../assets/owner-files/IMG_4068.jpg";
 import maggiePhoto from "../assets/owner-files/Headshot.PNG";
 import kayleePhoto from "../assets/owner-files/2022-11-13_01-34-31_030.jpeg"
-import arianaPhoto from "../assets/owner-files/IMG_2299.jpg"
+import arianaPhoto from "../assets/owner-files/IMG_2299.jpg";
+import aliciaPhoto from "../assets/owner-files/AliciaBioPhoto.jpg";
 import drawing from "../assets/stock-photos/erika-fletcher-YfNWGrQI3a4-unsplash.jpg"
 
 const About = () => {
@@ -192,7 +193,7 @@ const About = () => {
           </div>
           <div className="about-staff-ariana">
             <div>
-              <h2>Ariana Musolino | COTA</h2>
+              <h2>Ariana Musolino | COTA/L</h2>
               <p>
                 Ariana graduated from St. Catherine's University in 2019. She grew up 
                 in Folsom, California but has been loving Tennessee life since 2020. 
@@ -208,14 +209,33 @@ const About = () => {
               </p>
             </div>
             <div>
-              <h3 style={{ margin: ".25rem" }}>COTA (Certified Occupational Therapy Assistant)</h3>
+              <h3>Certified Occupational Therapist Assistant/Licensed</h3>
               <img src={arianaPhoto} alt="Ariana Musolino" width="250" />
             </div>
           </div>
-          <div className="about-staff-coming-soon">
+          <div className="about-staff-alicia">
+            <div>
+              <h3>Certified Occupational Therapist Assistant/Licensed</h3>
+              <img src={aliciaPhoto} alt="Alicia Kurth" width="250" />
+            </div>
+            <div>
+              <h2>Alicia Kurth | COTA/L</h2>
+              <p>
+              Alicia grew up in Wilson County and then completed her Associate's Degree in 
+              Occupational Therapy Assistant at Nashville State Community College in 2018. She 
+              has experience working in outpatient pediatrics. Her passion is to provide an 
+              environment for children to reach their full potential and to provide families 
+              with opportunities to foster growth within all aspects of the child's life. 
+              Alicia loves seeing the joy on a child's face when they achieve a goal they 
+              have been working toward. Outside of work, Alicia enjoys teaching dance, crafting, 
+              visiting her godchildren, and spending time with friends, family, and her dog Caya. 
+              </p>
+            </div>
+          </div>
+          {/* <div className="about-staff-coming-soon">
             <h3>And More Bios Coming Soon!</h3>
             <li>Alicia Kurth | COTA</li>
-          </div>
+          </div> */}
         </section>
       </div>
     </div>
