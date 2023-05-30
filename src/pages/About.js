@@ -5,6 +5,7 @@ import maggiePhoto from "../assets/owner-files/Headshot.PNG";
 import kayleePhoto from "../assets/owner-files/2022-11-13_01-34-31_030.jpeg"
 import arianaPhoto from "../assets/owner-files/IMG_2299.jpg";
 import aliciaPhoto from "../assets/owner-files/AliciaBioPhoto.jpg";
+import maggieWebbPhoto from "../assets/owner-files/421E801A-6E2B-404D-9284-C7370F534D92_1_105_c.jpeg";
 import drawing from "../assets/stock-photos/erika-fletcher-YfNWGrQI3a4-unsplash.jpg"
 
 const About = () => {
@@ -143,7 +144,7 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div className="about-staff-maggie">
+          <div className="about-staff-maggie-bill">
             <div>
               <h2>Maggie Bill | M.S. CCC-SLP </h2>
               <p>
@@ -230,6 +231,28 @@ const About = () => {
               have been working toward. Outside of work, Alicia enjoys teaching dance, crafting, 
               visiting her godchildren, and spending time with friends, family, and her dog Caya. 
               </p>
+            </div>
+          </div>
+          <div className="about-staff-maggie-webb">
+            <div>
+              <h2>Maggie Webb | OTD, OTR/L</h2>
+              <p>
+              Maggie graduated from University of Tennessee-Knoxville with a bachelor's degree in 
+              2020, followed by a doctorate in Occupational Therapy from Baylor University in 2022. 
+              She has spent many of her school rotations and personal time working in outpatient 
+              pediatrics, the school system, and adult rehab settings. She loves building a trustworthy, 
+              honest, and collaborative relationship with the children and their families, using a 
+              holistic approach to therapy. It is her goal to ensure occupational therapy is catered 
+              towards each child's needs and preferences to ensure effective and fun participation in 
+              their daily activities. She is recently married as of this summer and a new resident to 
+              Gallatin! In her free time, she enjoys exercising, walking their dog, Blue, reading her 
+              Kindle, cheering on the Vols, and being out on the lake with her loved ones! She is so 
+              excited and honored to be a part of the Thrive team and looks forward to this new chapter!
+              </p>
+            </div>
+            <div>
+              <h3>Occupational Therapist</h3>
+              <img src={maggieWebbPhoto} alt="Maggie Webb" width="250" />
             </div>
           </div>
           {/* <div className="about-staff-coming-soon">
