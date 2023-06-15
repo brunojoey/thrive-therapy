@@ -251,6 +251,13 @@
       text-align: center;
     }
 
+    &-otr{
+      > h3 {
+        text-decoration: underline;
+        text-decoration-color: $color-lightTeal;
+      }
+    }
+
     &-jordan {
       display: grid;
       grid-template-columns: 3fr 10fr;
@@ -699,6 +706,13 @@
     &-staff {
       > h2 {
         width: 100%;
+      }
+
+      &-otr {
+        > h3 {
+          text-decoration: underline;
+          text-decoration-color: $color-lightTeal;
+        }
       }
 
       &-jordan {

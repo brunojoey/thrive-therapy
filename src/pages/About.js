@@ -119,142 +119,149 @@ const About = () => {
         </section>
         <section className="about-staff">
           <h2>Meet Our Amazing Staff!</h2>
-          <div className="about-staff-jordan">
-            <div>
-              <h3>Occupational Therapist</h3>
-              <img src={jordanPhoto} alt="Jordan Sanders" width="250" />
+          <section className="about-staff-otr">
+            <h3 style={{ textAlign: "center" }}>Meet Our Occuptational Therapists!</h3>
+            <div className="about-staff-jordan">
+              <div>
+                <h3>Occupational Therapist</h3>
+                <img src={jordanPhoto} alt="Jordan Sanders" width="250" />
+              </div>
+              <div>
+                <h2>Jordan Sanders | OTR/L</h2>
+                <p>
+                  Jordan graduated from the University of Tennessee Health Science
+                  Center in 2016 with her Masters in Occupational Therapy. Her
+                  Master's degree was preceded by a Bachelor's degree in Psychology
+                  from Cumberland University. She has experience working in
+                  outpatient pediatrics and in acute care settings. Jordan has a
+                  passion for working with children of all abilities and fostering
+                  development in the early years of life. She loves partnering with
+                  children, their families, and their team to promote meaningful
+                  participation in their activities of daily life. Jordan enjoys
+                  incorporating a combination of play-based, holistic,
+                  evidenced-based, and sensory-based approaches to treatment,
+                  encouraging children to develop functional skills in everyday
+                  activities. In her free time she enjoys traveling, trying new
+                  restaurants, spending time with family, friends, and her dog Ace.
+                </p>
+              </div>
             </div>
-            <div>
-              <h2>Jordan Sanders | OTR/L</h2>
-              <p>
-                Jordan graduated from the University of Tennessee Health Science
-                Center in 2016 with her Masters in Occupational Therapy. Her
-                Master's degree was preceded by a Bachelor's degree in Psychology
-                from Cumberland University. She has experience working in
-                outpatient pediatrics and in acute care settings. Jordan has a
-                passion for working with children of all abilities and fostering
-                development in the early years of life. She loves partnering with
-                children, their families, and their team to promote meaningful
-                participation in their activities of daily life. Jordan enjoys
-                incorporating a combination of play-based, holistic,
-                evidenced-based, and sensory-based approaches to treatment,
-                encouraging children to develop functional skills in everyday
-                activities. In her free time she enjoys traveling, trying new
-                restaurants, spending time with family, friends, and her dog Ace.
-              </p>
+            <div className="about-staff-ariana">
+              <div>
+                <h2>Ariana Musolino | COTA/L</h2>
+                <p>
+                  Ariana graduated from St. Catherine's University in 2019. She grew up
+                  in Folsom, California but has been loving Tennessee life since 2020.
+                  Her passion for helping others was sparked when she volunteered in the
+                  special education classroom in high school, where she was first introduced
+                  to occupational therapy. Ariana has experience working in multiple settings,
+                  however found her passion in pediatrics. Ariana has a passion for working
+                  with children of all abilities and fostering development in the early years
+                  of life. Ariana loves partnering with children, their families, and their team
+                  to promote meaningful participation in their activities of daily life.
+                  In her free time she enjoys traveling, trying new restaurants, cheering
+                  on the Volunteers, and spending time with family, friends, and her dog Blu!
+                </p>
+              </div>
+              <div>
+                <h3>Certified Occupational Therapist Assistant/Licensed</h3>
+                <img src={arianaPhoto} alt="Ariana Musolino" width="250" />
+              </div>
             </div>
-          </div>
-          <div className="about-staff-maggie-bill">
-            <div>
-              <h2>Maggie Bill | M.S. CCC-SLP </h2>
-              <p>
-                Maggie grew up in Indiana, but has loved living in Tennessee for the
-                last several years. She graduated from Saint Louis University with her
-                undergraduate degree and Purdue University with her graduate degree.
-                She has experience working in the private practice, preschool, and
-                elementary school settings with a diverse range of ages and goals. She
-                enjoys working with children with early language delays, receptive
-                and expressive language impairments, gestalt language processing,
-                autism, augmentative and alternative communication (AAC), speech
-                sound disorders, stuttering, and literacy needs. She is passionate
-                about building relationships with children and their families,
-                using a child-led, play-based approach to therapy, and using
-                strengths to help children grow. In her free time, she enjoys hiking,
-                baking, traveling, and spending time with friends and family.
-              </p>
+            <div className="about-staff-alicia">
+              <div>
+                <h3>Certified Occupational Therapist Assistant/Licensed</h3>
+                <img src={aliciaPhoto} alt="Alicia Kurth" width="250" />
+              </div>
+              <div>
+                <h2>Alicia Kurth | COTA/L</h2>
+                <p>
+                  Alicia grew up in Wilson County and then completed her Associate's Degree in
+                  Occupational Therapy Assistant at Nashville State Community College in 2018. She
+                  has experience working in outpatient pediatrics. Her passion is to provide an
+                  environment for children to reach their full potential and to provide families
+                  with opportunities to foster growth within all aspects of the child's life.
+                  Alicia loves seeing the joy on a child's face when they achieve a goal they
+                  have been working toward. Outside of work, Alicia enjoys teaching dance, crafting,
+                  visiting her godchildren, and spending time with friends, family, and her dog Caya.
+                </p>
+              </div>
             </div>
-            <div>
-              <h3>Speech Language Pathologist</h3>
-              <img src={maggiePhoto} alt="Maggie Bill" width="250" />
+            <div className="about-staff-maggie-webb">
+              <div>
+                <h2>Maggie Webb | OTD, OTR/L</h2>
+                <p>
+                  Maggie graduated from University of Tennessee-Knoxville with a bachelor's degree in
+                  2020, followed by a doctorate in Occupational Therapy from Baylor University in 2022.
+                  She has spent many of her school rotations and personal time working in outpatient
+                  pediatrics, the school system, and adult rehab settings. She loves building a trustworthy,
+                  honest, and collaborative relationship with the children and their families, using a
+                  holistic approach to therapy. It is her goal to ensure occupational therapy is catered
+                  towards each child's needs and preferences to ensure effective and fun participation in
+                  their daily activities. She is recently married as of this summer and a new resident to
+                  Gallatin! In her free time, she enjoys exercising, walking their dog, Blue, reading her
+                  Kindle, cheering on the Vols, and being out on the lake with her loved ones! She is so
+                  excited and honored to be a part of the Thrive team and looks forward to this new chapter!
+                </p>
+              </div>
+              <div>
+                <h3>Occupational Therapist</h3>
+                <img src={maggieWebbPhoto} alt="Maggie Webb" width="250" />
+              </div>
             </div>
-          </div>
-          <div className="about-staff-kaylee">
-            <div>
-              <h3 style={{ margin: ".25rem" }}>Speech Language Pathologist</h3>
-              <img src={kayleePhoto} alt="Kaylee Coghill" width="250" />
+          </section>
+          <section className="about-staff-slp">
+            <h3 style={{ textAlign: "center" }}>Meet Our Speech Language Pathologists!</h3>
+            <div className="about-staff-maggie-bill">
+              <div>
+                <h2>Maggie Bill | M.S. CCC-SLP </h2>
+                <p>
+                  Maggie grew up in Indiana, but has loved living in Tennessee for the
+                  last several years. She graduated from Saint Louis University with her
+                  undergraduate degree and Purdue University with her graduate degree.
+                  She has experience working in the private practice, preschool, and
+                  elementary school settings with a diverse range of ages and goals. She
+                  enjoys working with children with early language delays, receptive
+                  and expressive language impairments, gestalt language processing,
+                  autism, augmentative and alternative communication (AAC), speech
+                  sound disorders, stuttering, and literacy needs. She is passionate
+                  about building relationships with children and their families,
+                  using a child-led, play-based approach to therapy, and using
+                  strengths to help children grow. In her free time, she enjoys hiking,
+                  baking, traveling, and spending time with friends and family.
+                </p>
+              </div>
+              <div>
+                <h3>Speech Language Pathologist</h3>
+                <img src={maggiePhoto} alt="Maggie Bill" width="250" />
+              </div>
             </div>
-            <div>
-              <h2>Kaylee Coghill | M.A. CCC-SLP </h2>
-              <p>
-                Kaylee feels it is a joy and privilege to help children and their 
-                families learn and grow together. Kaylee uses evidence-based treatment 
-                approaches that are tailored to each unique child in order to provide 
-                functional, fun therapy that has a positive impact on the child and 
-                their family. Kaylee specializes in early language development skills 
-                and creating positive experiences around meal times with picky eaters. 
-                Kaylee completed her Bachelor's degree at Western Kentucky University 
-                in 2016 and her Master's degree in Communication Sciences and Disorders 
-                at St. Louis University in 2018. Kaylee lives in Hendersonville with her 
-                husband, Ethan, an Aussiedoodle named Remi, and is welcoming a baby boy 
-                this July. When not at work, Kaylee loves to go on walks, sit on the back 
-                patio, have morning coffee, and listen to podcasts. Kaylee looks forward 
-                to supporting your child and family!
-              </p>
+            <div className="about-staff-kaylee">
+              <div>
+                <h3 style={{ margin: ".25rem" }}>Speech Language Pathologist</h3>
+                <img src={kayleePhoto} alt="Kaylee Coghill" width="250" />
+              </div>
+              <div>
+                <h2>Kaylee Coghill | M.A. CCC-SLP </h2>
+                <p>
+                  Kaylee feels it is a joy and privilege to help children and their
+                  families learn and grow together. Kaylee uses evidence-based treatment
+                  approaches that are tailored to each unique child in order to provide
+                  functional, fun therapy that has a positive impact on the child and
+                  their family. Kaylee specializes in early language development skills
+                  and creating positive experiences around meal times with picky eaters.
+                  Kaylee completed her Bachelor's degree at Western Kentucky University
+                  in 2016 and her Master's degree in Communication Sciences and Disorders
+                  at St. Louis University in 2018. Kaylee lives in Hendersonville with her
+                  husband, Ethan, an Aussiedoodle named Remi, and is welcoming a baby boy
+                  this July. When not at work, Kaylee loves to go on walks, sit on the back
+                  patio, have morning coffee, and listen to podcasts. Kaylee looks forward
+                  to supporting your child and family!
+                </p>
+              </div>
             </div>
-          </div>
-          <div className="about-staff-ariana">
-            <div>
-              <h2>Ariana Musolino | COTA/L</h2>
-              <p>
-                Ariana graduated from St. Catherine's University in 2019. She grew up 
-                in Folsom, California but has been loving Tennessee life since 2020. 
-                Her passion for helping others was sparked when she volunteered in the 
-                special education classroom in high school, where she was first introduced 
-                to occupational therapy. Ariana has experience working in multiple settings, 
-                however found her passion in pediatrics. Ariana has a passion for working 
-                with children of all abilities and fostering development in the early years 
-                of life. Ariana loves partnering with children, their families, and their team 
-                to promote meaningful participation in their activities of daily life. 
-                In her free time she enjoys traveling, trying new restaurants, cheering 
-                on the Volunteers, and spending time with family, friends, and her dog Blu!
-              </p>
-            </div>
-            <div>
-              <h3>Certified Occupational Therapist Assistant/Licensed</h3>
-              <img src={arianaPhoto} alt="Ariana Musolino" width="250" />
-            </div>
-          </div>
-          <div className="about-staff-alicia">
-            <div>
-              <h3>Certified Occupational Therapist Assistant/Licensed</h3>
-              <img src={aliciaPhoto} alt="Alicia Kurth" width="250" />
-            </div>
-            <div>
-              <h2>Alicia Kurth | COTA/L</h2>
-              <p>
-              Alicia grew up in Wilson County and then completed her Associate's Degree in 
-              Occupational Therapy Assistant at Nashville State Community College in 2018. She 
-              has experience working in outpatient pediatrics. Her passion is to provide an 
-              environment for children to reach their full potential and to provide families 
-              with opportunities to foster growth within all aspects of the child's life. 
-              Alicia loves seeing the joy on a child's face when they achieve a goal they 
-              have been working toward. Outside of work, Alicia enjoys teaching dance, crafting, 
-              visiting her godchildren, and spending time with friends, family, and her dog Caya. 
-              </p>
-            </div>
-          </div>
-          <div className="about-staff-maggie-webb">
-            <div>
-              <h2>Maggie Webb | OTD, OTR/L</h2>
-              <p>
-              Maggie graduated from University of Tennessee-Knoxville with a bachelor's degree in 
-              2020, followed by a doctorate in Occupational Therapy from Baylor University in 2022. 
-              She has spent many of her school rotations and personal time working in outpatient 
-              pediatrics, the school system, and adult rehab settings. She loves building a trustworthy, 
-              honest, and collaborative relationship with the children and their families, using a 
-              holistic approach to therapy. It is her goal to ensure occupational therapy is catered 
-              towards each child's needs and preferences to ensure effective and fun participation in 
-              their daily activities. She is recently married as of this summer and a new resident to 
-              Gallatin! In her free time, she enjoys exercising, walking their dog, Blue, reading her 
-              Kindle, cheering on the Vols, and being out on the lake with her loved ones! She is so 
-              excited and honored to be a part of the Thrive team and looks forward to this new chapter!
-              </p>
-            </div>
-            <div>
-              <h3>Occupational Therapist</h3>
-              <img src={maggieWebbPhoto} alt="Maggie Webb" width="250" />
-            </div>
-          </div>
+
+          </section>
           {/* <div className="about-staff-coming-soon">
             <h3>And More Bios Coming Soon!</h3>
             <li>Alicia Kurth | COTA</li>
