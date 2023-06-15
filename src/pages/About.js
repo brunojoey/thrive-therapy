@@ -118,8 +118,7 @@ const About = () => {
           </div>
         </section>
         <section className="about-staff">
-          <h2>Meet Our Amazing Staff!</h2>
-          <section className="about-staff-otr">
+          <div className="about-staff-otr">
             <h3 style={{ textAlign: "center" }}>Meet Our Occuptational Therapists!</h3>
             <div className="about-staff-jordan">
               <div>
@@ -209,8 +208,8 @@ const About = () => {
                 <img src={maggieWebbPhoto} alt="Maggie Webb" width="250" />
               </div>
             </div>
-          </section>
-          <section className="about-staff-slp">
+          </div>
+          <div className="about-staff-slp">
             <h3 style={{ textAlign: "center" }}>Meet Our Speech Language Pathologists!</h3>
             <div className="about-staff-maggie-bill">
               <div>
@@ -260,8 +259,7 @@ const About = () => {
                 </p>
               </div>
             </div>
-
-          </section>
+          </div>
           {/* <div className="about-staff-coming-soon">
             <h3>And More Bios Coming Soon!</h3>
             <li>Alicia Kurth | COTA</li>

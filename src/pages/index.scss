@@ -251,7 +251,7 @@
       text-align: center;
     }
 
-    &-otr{
+    &-otr {
       > h3 {
         text-decoration: underline;
         text-decoration-color: $color-lightTeal;
@@ -329,6 +329,13 @@
         display: flex;
         justify-content: flex-end;
         font-size: 100%;
+      }
+    }
+
+    &-slp {
+      > h3 {
+        text-decoration: underline;
+        text-decoration-color: $color-lightTeal;
       }
     }
 
