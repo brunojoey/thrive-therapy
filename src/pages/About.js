@@ -6,6 +6,7 @@ import kayleePhoto from "../assets/owner-files/2022-11-13_01-34-31_030.jpeg"
 import arianaPhoto from "../assets/owner-files/IMG_2299.jpg";
 import aliciaPhoto from "../assets/owner-files/AliciaBioPhoto.jpg";
 import maggieWebbPhoto from "../assets/owner-files/421E801A-6E2B-404D-9284-C7370F534D92_1_105_c.jpeg";
+import brittanyPhoto from "../assets/owner-files/image0.jpeg"
 import drawing from "../assets/stock-photos/erika-fletcher-YfNWGrQI3a4-unsplash.jpg"
 
 const About = () => {
@@ -213,6 +214,10 @@ const About = () => {
             <h3 style={{ textAlign: "center" }}>Meet Our Speech Language Pathologists!</h3>
             <div className="about-staff-maggie-bill">
               <div>
+                <h3>Speech Language Pathologist</h3>
+                <img src={maggiePhoto} alt="Maggie Bill" width="250" />
+              </div>
+              <div>
                 <h2>Maggie Bill | M.S. CCC-SLP </h2>
                 <p>
                   Maggie grew up in Indiana, but has loved living in Tennessee for the
@@ -230,16 +235,8 @@ const About = () => {
                   baking, traveling, and spending time with friends and family.
                 </p>
               </div>
-              <div>
-                <h3>Speech Language Pathologist</h3>
-                <img src={maggiePhoto} alt="Maggie Bill" width="250" />
-              </div>
             </div>
             <div className="about-staff-kaylee">
-              <div>
-                <h3 style={{ margin: ".25rem" }}>Speech Language Pathologist</h3>
-                <img src={kayleePhoto} alt="Kaylee Coghill" width="250" />
-              </div>
               <div>
                 <h2>Kaylee Coghill | M.A. CCC-SLP </h2>
                 <p>
@@ -258,11 +255,36 @@ const About = () => {
                   to supporting your child and family!
                 </p>
               </div>
+              <div>
+                <h3 style={{ margin: ".25rem" }}>Speech Language Pathologist</h3>
+                <img src={kayleePhoto} alt="Kaylee Coghill" width="250" />
+              </div>
+            </div>
+          </div>
+          <div className="about-staff-support">
+            <h3 style={{ textAlign: "center" }}>Meet Our Support Staff!</h3>
+            <div className="about-staff-brittany">
+              <div>
+                <img src={brittanyPhoto} alt="Brittany Zolb" width="250" />
+              </div>
+              <div>
+                <h2>Brittany Zobl | Patient Care Coordinator</h2>
+                <p>
+                  Brittany joins Thrive with years of experience and education in the medical
+                  industry. She has lived in Sumner county for over 20 years and can't see herself
+                  anywhere else. Building relationships with families and being a liaison between
+                  the family and their medical needs is very important to her. With Brittany being
+                  the first face you see when entering, she hopes her ample knowledge of Disney
+                  princesses and dinosaurs will help your child feel at ease and excited to come
+                  to Thrive! In her spare time, she enjoys traveling, reading, and spoiling her
+                  niece and nephew. Brittany is excited to join the Thrive community and looks
+                  forward to getting to know each and every one of you!
+                </p>
+              </div>
             </div>
           </div>
           {/* <div className="about-staff-coming-soon">
             <h3>And More Bios Coming Soon!</h3>
-            <li>Alicia Kurth | COTA</li>
           </div> */}
         </section>
       </div>

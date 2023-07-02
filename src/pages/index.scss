@@ -268,7 +268,7 @@
 
     &-maggie-bill {
       display: grid;
-      grid-template-columns: 12fr 3fr;
+      grid-template-columns: 3fr 12fr;
       column-gap: 3ch;
       text-align: left;
       justify-items: center;
@@ -282,7 +282,8 @@
 
     &-kaylee {
       display: grid;
-      grid-template-columns: 3fr 10fr;
+      grid-template-columns: 12fr 3fr;
+      column-gap: 3ch;
       text-align: left;
       justify-items: center;
       margin: 1rem;
@@ -332,7 +333,28 @@
       }
     }
 
+    &-brittany {
+      display: grid;
+      grid-template-columns: 3fr 10fr;
+      text-align: left;
+      justify-items: center;
+      margin: 1rem;
+
+      > div > h3 {
+        display: flex;
+        justify-content: flex-end;
+        font-size: 100%;
+      }
+    }
+
     &-slp {
+      > h3 {
+        text-decoration: underline;
+        text-decoration-color: $color-lightTeal;
+      }
+    }
+
+    &-support {
       > h3 {
         text-decoration: underline;
         text-decoration-color: $color-lightTeal;
@@ -821,6 +843,25 @@
       &-maggie-webb {
         display: flex;
         flex-direction: column;
+
+        > div > h3 {
+          text-align: center;
+        }
+        > div > h2 {
+          text-align: center;
+          font-size: 1.3rem;
+          font-weight: bold;
+        }
+  
+        > div > img {
+          display: flex;
+          margin: 0 auto;
+        }
+      }
+
+      &-brittany {
+        display: flex;
+        flex-direction: column-reverse;
 
         > div > h3 {
           text-align: center;
