@@ -333,7 +333,35 @@
       }
     }
 
+    &-katrina {
+      display: grid;
+      grid-template-columns: 12fr 3fr;
+      column-gap: 3ch;
+      text-align: left;
+      justify-items: center;
+      margin: 1rem;
+
+      > div > h3 {
+        display: flex;
+        justify-content: flex-end;
+        font-size: 100%;
+      }
+    }
+
     &-brittany {
+      display: grid;
+      grid-template-columns: 3fr 10fr;
+      text-align: left;
+      justify-items: center;
+      margin: 1rem;
+
+      > div > h3 {
+        display: flex;
+        justify-content: flex-end;
+        font-size: 100%;
+      }
+    }
+    &-sydnie {
       display: grid;
       grid-template-columns: 3fr 10fr;
       text-align: left;
@@ -860,6 +888,44 @@
       }
 
       &-brittany {
+        display: flex;
+        flex-direction: column-reverse;
+
+        > div > h3 {
+          text-align: center;
+        }
+        > div > h2 {
+          text-align: center;
+          font-size: 1.3rem;
+          font-weight: bold;
+        }
+  
+        > div > img {
+          display: flex;
+          margin: 0 auto;
+        }
+      }
+
+      &-katrina {
+        display: flex;
+        flex-direction: column;
+
+        > div > h3 {
+          text-align: center;
+        }
+        > div > h2 {
+          text-align: center;
+          font-size: 1.3rem;
+          font-weight: bold;
+        }
+  
+        > div > img {
+          display: flex;
+          margin: 0 auto;
+        }
+      }
+
+      &-sydnie {
         display: flex;
         flex-direction: column-reverse;
 
