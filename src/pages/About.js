@@ -9,7 +9,7 @@ import maggieWebbPhoto from "../assets/owner-files/421E801A-6E2B-404D-9284-C7370
 import brittanyPhoto from "../assets/owner-files/image0.jpeg";
 import sydniePhoto from "../assets/owner-files/IMG_9570.heic";
 import katrinaPhoto from "../assets/owner-files/IMG_0961.jpg";
-import kassidiePhoto
+import kassidiePhoto from "../assets/owner-files/KK-Picture.jpg";
 import drawing from "../assets/stock-photos/erika-fletcher-YfNWGrQI3a4-unsplash.jpg"
 
 const About = () => {
