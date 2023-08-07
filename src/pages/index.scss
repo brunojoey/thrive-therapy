@@ -288,6 +288,14 @@
       justify-items: center;
       margin: 1rem;
     }
+    &-kassidie {
+      display: grid;
+      grid-template-columns: 12fr 3fr;
+      column-gap: 3ch;
+      text-align: left;
+      justify-items: center;
+      margin: 1rem;
+    }
 
     &-ariana {
       display: grid;
@@ -812,6 +820,25 @@
       }
 
       &-kaylee {
+        display: flex;
+        flex-direction: column;
+
+        > div > h3 {
+          text-align: center;
+        }
+        > div > h2 {
+          text-align: center;
+          font-size: 1.3rem;
+          font-weight: bold;
+        }
+  
+        > div > img {
+          display: flex;
+          margin: 0 auto;
+        }
+      }
+
+      &-kassidie {
         display: flex;
         flex-direction: column;
 

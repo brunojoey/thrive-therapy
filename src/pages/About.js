@@ -9,6 +9,7 @@ import maggieWebbPhoto from "../assets/owner-files/421E801A-6E2B-404D-9284-C7370
 import brittanyPhoto from "../assets/owner-files/image0.jpeg";
 import sydniePhoto from "../assets/owner-files/IMG_9570.heic";
 import katrinaPhoto from "../assets/owner-files/IMG_0961.jpg";
+import kassidiePhoto
 import drawing from "../assets/stock-photos/erika-fletcher-YfNWGrQI3a4-unsplash.jpg"
 
 const About = () => {
@@ -270,17 +271,36 @@ const About = () => {
               <div>
                 <h2>Sydnie Dudek | CF-SLP</h2>
                 <p>
-                  Sydnie grew up in Ohio but has recently moved to Tennessee following 
-                  the completion of her Bachelor's degree at East Carolina University 
-                  and her Master's degree in Speech-Language Pathology at the Medical 
-                  University of South Carolina. She has experience in a variety of settings 
-                  from adult to pediatric and enjoys working with children with feeding/swallowing 
-                  difficulties, augmentative and alternative communication (AAC), autism, and 
-                  receptive and expressive language impairments. In her free time, she enjoys 
-                  exploring new areas of Nashville, cheering on the Buckeyes, and spending 
-                  time with her friends and dog, Willa. Sydnie is excited to build relationships 
+                  Sydnie grew up in Ohio but has recently moved to Tennessee following
+                  the completion of her Bachelor's degree at East Carolina University
+                  and her Master's degree in Speech-Language Pathology at the Medical
+                  University of South Carolina. She has experience in a variety of settings
+                  from adult to pediatric and enjoys working with children with feeding/swallowing
+                  difficulties, augmentative and alternative communication (AAC), autism, and
+                  receptive and expressive language impairments. In her free time, she enjoys
+                  exploring new areas of Nashville, cheering on the Buckeyes, and spending
+                  time with her friends and dog, Willa. Sydnie is excited to build relationships
                   with children and families and help them grow in order to reach their goals!
                 </p>
+              </div>
+            </div>
+            <div className="about-staff-kassidie">
+              <div>
+                <h2>Kassidie Kirkham | M.S. CF-SLP</h2>
+                <p>
+                  Kassidie was born in Georgia, but has long called Tennessee home. She graduated 
+                  from the University of Tennessee where she earned both her Bachelor's degree and 
+                  Master's degree in speech-language pathology. Kassidie has experience working with 
+                  people of all ages but has a passion for working with children with early language 
+                  delays, autism, speech sound disorders, receptive and expressive language impairments, 
+                  and AAC. In her free time, Kassidie enjoys spending time with her family and friends, 
+                  cheering on the Vols, playing with her dogs, going for walks, and traveling. She looks 
+                  forward to meeting you and your family!
+                </p>
+              </div>
+              <div>
+                <h3 style={{ margin: ".25rem" }}>Speech Language Pathologist</h3>
+                <img src={kassidiePhoto} alt="Kassidie Kirkham" width="250" />
               </div>
             </div>
             <div className="about-staff-katrina">
@@ -295,7 +315,7 @@ const About = () => {
                   has experience in the private practice setting, elementary school setting, and
                   long-term care and rehabilitation facilities. She has experience with early
                   language development, articulation, apraxia, AAC, dysphagia, and oral
-                  motor/feeding therapy. Katrina enjoys gardening, reading, traveling, and 
+                  motor/feeding therapy. Katrina enjoys gardening, reading, traveling, and
                   spending time with her husband and two children.
                 </p>
               </div>
