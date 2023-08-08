@@ -343,15 +343,12 @@
 
     &-katrina {
       display: grid;
-      grid-template-columns: 12fr 3fr;
-      column-gap: 3ch;
+      grid-template-columns: 3fr 10fr;
       text-align: left;
       justify-items: center;
       margin: 1rem;
 
       > div > h3 {
-        display: flex;
-        justify-content: flex-end;
         font-size: 100%;
       }
     }
@@ -377,8 +374,6 @@
       margin: 1rem;
 
       > div > h3 {
-        display: flex;
-        justify-content: flex-end;
         font-size: 100%;
       }
     }
@@ -802,10 +797,10 @@
 
       &-maggie-bill {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
 
         > div > h3 {
-          text-align: center;
+          justify-content: center;
         }
         > div > h2 {
           text-align: center;
@@ -821,10 +816,11 @@
 
       &-kaylee {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
 
         > div > h3 {
           text-align: center;
+          margin-bottom: .5rem;
         }
         > div > h2 {
           text-align: center;
@@ -840,7 +836,7 @@
 
       &-kassidie {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
 
         > div > h3 {
           text-align: center;
@@ -897,10 +893,10 @@
 
       &-maggie-webb {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
 
         > div > h3 {
-          text-align: center;
+          justify-content: center;
         }
         > div > h2 {
           text-align: center;
@@ -916,7 +912,7 @@
 
       &-brittany {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
 
         > div > h3 {
           text-align: center;
@@ -954,7 +950,7 @@
 
       &-sydnie {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
 
         > div > h3 {
           text-align: center;

@@ -7,7 +7,7 @@ import arianaPhoto from "../assets/owner-files/IMG_2299.jpg";
 import aliciaPhoto from "../assets/owner-files/AliciaBioPhoto.jpg";
 import maggieWebbPhoto from "../assets/owner-files/421E801A-6E2B-404D-9284-C7370F534D92_1_105_c.jpeg";
 import brittanyPhoto from "../assets/owner-files/image0.jpeg";
-import sydniePhoto from "../assets/owner-files/IMG_9570.heic";
+import sydniePhoto from "../assets/owner-files/IMG_9570.jpg";
 import katrinaPhoto from "../assets/owner-files/IMG_0961.jpg";
 import kassidiePhoto from "../assets/owner-files/KK-Picture.jpg";
 import drawing from "../assets/stock-photos/erika-fletcher-YfNWGrQI3a4-unsplash.jpg"
@@ -19,7 +19,7 @@ const About = () => {
         <div className="about-titles">
           <h1 className="about-title">About Thrive Pediatric Therapy</h1>
           <h2 className="about-secondary">
-            We believe in each child and their ability to thrive
+            We Believe in Each Child and Their Ability to Thrive
           </h2>
         </div>
         <section className="about-section">
@@ -304,6 +304,10 @@ const About = () => {
               </div>
             </div>
             <div className="about-staff-katrina">
+            <div>
+                <h3>Speech Language Pathologist</h3>
+                <img src={katrinaPhoto} alt="Katrina Reed" width="250" />
+              </div>
               <div>
                 <h2>Katrina Reed | M.S. CCC-SLP </h2>
                 <p>
@@ -318,10 +322,6 @@ const About = () => {
                   motor/feeding therapy. Katrina enjoys gardening, reading, traveling, and
                   spending time with her husband and two children.
                 </p>
-              </div>
-              <div>
-                <h3 style={{ margin: ".25rem" }}>Speech Language Pathologist</h3>
-                <img src={katrinaPhoto} alt="Katrina Reed" width="250" />
               </div>
             </div>
           </div>
