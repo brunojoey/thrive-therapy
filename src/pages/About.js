@@ -1,15 +1,14 @@
-import christinaPhoto from "../assets/owner-files/IMG_1809.jpg";
-import alyssaPhoto from "../assets/owner-files/IMG_6337.jpg";
-import jordanPhoto from "../assets/owner-files/IMG_4068.jpg";
-import maggiePhoto from "../assets/owner-files/Headshot.PNG";
-import kayleePhoto from "../assets/owner-files/2022-11-13_01-34-31_030.jpeg"
-import arianaPhoto from "../assets/owner-files/IMG_2299.jpg";
+import christinaPhoto from "../assets/owner-files/christina-photo.jpg";
+import alyssaPhoto from "../assets/owner-files/alyssa-photo.jpg";
+import jordanPhoto from "../assets/owner-files/jordan-photo.jpg";
+import maggieBillPhoto from "../assets/owner-files/maggie-bill-photo.PNG";
+import kayleePhoto from "../assets/owner-files/kaylee-photo.jpeg"
+import arianaPhoto from "../assets/owner-files/ariana-photo.jpg";
 import aliciaPhoto from "../assets/owner-files/AliciaBioPhoto.jpg";
-import maggieWebbPhoto from "../assets/owner-files/421E801A-6E2B-404D-9284-C7370F534D92_1_105_c.jpeg";
-import brittanyPhoto from "../assets/owner-files/image0.jpeg";
-import sydniePhoto from "../assets/owner-files/IMG_9570.jpg";
-import katrinaPhoto from "../assets/owner-files/IMG_0961.jpg";
-import kassidiePhoto from "../assets/owner-files/KK-Picture.jpg";
+import maggieCardozaPhoto from "../assets/owner-files/maggie-cardoza-photo.jpeg";
+import brittanyPhoto from "../assets/owner-files/brittany-photo.jpeg";
+import sydniePhoto from "../assets/owner-files/sydnie-photo.jpg";
+import kassidiePhoto from "../assets/owner-files/Kassidie-Picture.jpg";
 import drawing from "../assets/stock-photos/erika-fletcher-YfNWGrQI3a4-unsplash.jpg"
 
 const About = () => {
@@ -190,9 +189,9 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <div className="about-staff-maggie-webb">
+            <div className="about-staff-maggie-cardoza">
               <div>
-                <h2>Maggie Webb | OTD, OTR/L</h2>
+                <h2>Maggie Cardoza | OTD, OTR/L</h2>
                 <p>
                   Maggie graduated from University of Tennessee-Knoxville with a bachelor's degree in
                   2020, followed by a doctorate in Occupational Therapy from Baylor University in 2022.
@@ -209,7 +208,7 @@ const About = () => {
               </div>
               <div>
                 <h3>Occupational Therapist</h3>
-                <img src={maggieWebbPhoto} alt="Maggie Webb" width="250" />
+                <img src={maggieCardozaPhoto} alt="Maggie Cardoza" width="250" />
               </div>
             </div>
           </div>
@@ -218,7 +217,7 @@ const About = () => {
             <div className="about-staff-maggie-bill">
               <div>
                 <h3>Speech Language Pathologist</h3>
-                <img src={maggiePhoto} alt="Maggie Bill" width="250" />
+                <img src={maggieBillPhoto} alt="Maggie Bill" width="250" />
               </div>
               <div>
                 <h2>Maggie Bill | M.S. CCC-SLP</h2>
@@ -301,27 +300,6 @@ const About = () => {
               <div>
                 <h3 style={{ margin: ".25rem" }}>Speech Language Pathologist</h3>
                 <img src={kassidiePhoto} alt="Kassidie Kirkham" width="250" />
-              </div>
-            </div>
-            <div className="about-staff-katrina">
-            <div>
-                <h3>Speech Language Pathologist</h3>
-                <img src={katrinaPhoto} alt="Katrina Reed" width="250" />
-              </div>
-              <div>
-                <h2>Katrina Reed | M.S. CCC-SLP </h2>
-                <p>
-                  Katrina has been a speech-language pathologist for over 10 years! She enjoys
-                  working with children and helping them develop their speech, language, and
-                  feeding skills in a fun, positive, and effective way; she wants to find ways
-                  to educate parents and increase their carry-over to home. She earned her
-                  undergraduate and graduate degree from Western Kentucky University. Katrina
-                  has experience in the private practice setting, elementary school setting, and
-                  long-term care and rehabilitation facilities. She has experience with early
-                  language development, articulation, apraxia, AAC, dysphagia, and oral
-                  motor/feeding therapy. Katrina enjoys gardening, reading, traveling, and
-                  spending time with her husband and two children.
-                </p>
               </div>
             </div>
           </div>

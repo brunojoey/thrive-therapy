@@ -326,7 +326,7 @@
       }
     }
 
-    &-maggie-webb {
+    &-maggie-cardoza {
       display: grid;
       grid-template-columns: 12fr 3fr;
       column-gap: 3ch;
@@ -337,18 +337,6 @@
       > div > h3 {
         display: flex;
         justify-content: flex-end;
-        font-size: 100%;
-      }
-    }
-
-    &-katrina {
-      display: grid;
-      grid-template-columns: 3fr 10fr;
-      text-align: left;
-      justify-items: center;
-      margin: 1rem;
-
-      > div > h3 {
         font-size: 100%;
       }
     }
@@ -891,7 +879,7 @@
         }
       }
 
-      &-maggie-webb {
+      &-maggie-cardoza {
         display: flex;
         flex-direction: column-reverse;
 
@@ -915,26 +903,7 @@
         flex-direction: column;
 
         > div > h3 {
-          text-align: center;
-        }
-        > div > h2 {
-          text-align: center;
-          font-size: 1.3rem;
-          font-weight: bold;
-        }
-  
-        > div > img {
-          display: flex;
-          margin: 0 auto;
-        }
-      }
-
-      &-katrina {
-        display: flex;
-        flex-direction: column;
-
-        > div > h3 {
-          text-align: center;
+          justify-content: center;
         }
         > div > h2 {
           text-align: center;
